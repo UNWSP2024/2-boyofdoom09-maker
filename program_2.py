@@ -1,6 +1,6 @@
 
 def average_age():
-age1 = int(input("Enter the age of friend 1: "))
+  age1 = int(input("Enter the age of friend 1: "))
 age2 = int(input("Enter the age of friend 2: "))
 age3 = int(input("Enter the age of friend 3: "))
 age4 = int(input("Enter the age of friend 4: "))
