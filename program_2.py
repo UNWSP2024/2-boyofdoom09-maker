@@ -1,13 +1,17 @@
 
 def average_age():
-    # Get User Input
-age1 = int(input('Enter age: '))
-age2 = int(input('Enter second age: '))
-age3 = int(input('Enter third age: '))
-age4 = int(input('Enter fourth age: '))
-age5 = int(input('Enter fifth age: '))
-average_age = (age1 + age2 + age3 + age4 + age5) / 5
-print(average_age) 
+age1 = int(input("Enter the age of friend 1: "))
+age2 = int(input("Enter the age of friend 2: "))
+age3 = int(input("Enter the age of friend 3: "))
+age4 = int(input("Enter the age of friend 4: "))
+age5 = int(input("Enter the age of friend 5: "))
+
+
+average_age = (age1 + age2 + age3 + age4 + age5) / 5.0
+
+print(f"The average age of the five friends is: {average_age}")
+
+# Get User Input
 
 # Calculate the average and assign it to a valid variable name
 
