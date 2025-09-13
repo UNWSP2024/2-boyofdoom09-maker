@@ -1,4 +1,18 @@
 def calculate_total_purchase():
+    item1 = input(first item price:)
+    item2 = input(second item price:)
+    item3 = input(third item price:)
+    item4 = input(fourth item price:)
+    item5 = input(fifth item price:)
+    item1 = int(item1)
+    item2 = int(item2)
+    item3 = int(item3)
+    item4 = int(item4)
+    item5 = int(item5)
+    subtotal = (item1 + item2 + item3 + item4 + item5)
+    total_with_sales_tax = subtotal + (subtotal * .07) 
+    print(subtotal) 
+    print(total_with_sales_tax)
     # A customer in a store is purchasing five items.  
     # Write a program that asks for each item, 
     # then displays the subtotal of the sale, 
